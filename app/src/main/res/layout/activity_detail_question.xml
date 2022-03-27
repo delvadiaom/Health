@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rltv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11cfc5">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="3dp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/circleimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="abc xyz"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rltv1"
+        android:id="@+id/scroll"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rltv2"
+            android:background="#ffffff"
+            android:layout_below="@id/rltv1">
+
+            <TextView
+                android:id="@+id/qstn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:padding="2dp"
+                android:text="Question"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qstn"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/editback"
+                android:padding="10dp"
+                android:text="I have fever abshd dbf dh hhb hbh hhb j jb bhbhb b jhjh h bhbgb  "
+                android:textColor="#000000"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/dcp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="12dp"
+                android:padding="2dp"
+                android:text="Description"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dcp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/editback"
+                android:padding="10dp"
+                android:text=" fever is a temporary increase in your body temperature, often due to an illness. Having a fever is a sign that something out of the ordinary is going on in your body"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question"
+                android:layout_marginLeft="12dp"
+                android:padding="2dp"
+                android:text="Answer"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t3"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/editback"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/solveedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/answer"
+                android:layout_marginLeft="12dp"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/editback"
+                android:hint="Enter your solution here..."
+                android:paddingLeft="10dp" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+
+        <Button
+            android:id="@+id/editsolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginHorizontal="20dp"/>
+
+        <Button
+            android:id="@+id/solvebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Answer"/>
+
+
+        <Button
+            android:id="@+id/savesolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

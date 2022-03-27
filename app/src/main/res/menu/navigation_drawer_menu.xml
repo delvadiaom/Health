@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_covidCasesInfo"
+            android:icon="@drawable/covid19"
+            android:title="@string/nav_covidCasesInfo_text"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/newspaper"
+            android:title="@string/nav_share_title" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/information"
+            android:title="@string/nav_about_title" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_help"
+            android:title="@string/nav_help_title" />
+
+    </group>
+
+</menu>

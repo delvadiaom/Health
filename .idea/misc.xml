@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/buttonbacknews.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/card_back_country.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/card_back_country_vaccine.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/editback.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/ic_help.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/ic_share.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/drawable/tab_corners_shape.xml" value="0.2135" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_choose_role.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_country_case.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_detail_country_case2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_detail_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_detail_question.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_doctor_log_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_news.xml" value="0.2221210741920801" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_otpactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_saved_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/activity_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/country_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/row_question.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/layout/savednews.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Health/app/src/main/res/menu/navigation_drawer_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

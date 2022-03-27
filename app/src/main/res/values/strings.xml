@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Health</string>
+    <string name="et_name_hint">Enter your name here</string>
+    <string name="et_email_hint">Enter your email here</string>
+    <string name="et_phone_hint">Enter your phone number here</string>
+    <string name="et_password_hint">Enter your password here</string>
+    <string name="bt_register_hint">Register</string>
+    <string name="tv_text1">Here\'s your first step with us</string>
+    <string name="tv_askToSignIn_hint">Already have an account?</string>
+    <string name="tv_signIn">Sign In</string>
+    <string name="tv_phoneNumber">Enter OTP</string>
+    <string name="tv_otpSent">OTP has been sent to your phone</string>
+    <string name="nav_covidCasesInfo_text">Covid Cases Info</string>
+    <string name="nav_share_title">Covid News</string>
+    <string name="nav_about_title">About</string>
+    <string name="nav_help_title">Logout</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="tv_que">Are you a Medical Professional ?</string>
+    <string name="bt_yes">Yes</string>
+    <string name="bt_no">No</string>
+    <string name="tv_tag">Ask Your Medical Questions Here</string>
+    <string name="tv_appName">MedQue</string>
+</resources>

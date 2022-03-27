@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11CFC5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/tv_appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cavolinibold"
+        android:text="@string/tv_appName"
+        android:textColor="#E31111"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_appName"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/segoeuil"
+        android:gravity="center"
+        android:text="@string/tv_tag"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

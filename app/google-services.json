@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918932046234",
+    "project_id": "health-2e62f",
+    "storage_bucket": "health-2e62f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918932046234:android:a64cae7e74c73a5cf7ba23",
+        "android_client_info": {
+          "package_name": "com.degtu.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918932046234-t945k9dqp209gl0ofbp2cg20n10ih90r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB-868f-Xs4nbIqLev1a1P0y8iMg7QXRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918932046234-t945k9dqp209gl0ofbp2cg20n10ih90r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
